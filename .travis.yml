@@ -18,9 +18,9 @@ addons:
     token:
       secure: $SONAR_TOKEN
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
-script:
+#script:
 #  - python test.py
-  - sonar-scanner
+#  - sonar-scanner
 
 deploy:
   provider: heroku
