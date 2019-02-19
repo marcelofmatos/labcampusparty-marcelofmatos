@@ -6,7 +6,7 @@ class Test(unittest.TestCase):
     
     def setUp(self):
         # cria uma instância do unittest, precisa do nome "setUp"
-        self.app = app.test_client()
+        self.app = app.app.test_client()
 
     def test_requisicao(self):
         # envia uma requisicao GET para a URL
