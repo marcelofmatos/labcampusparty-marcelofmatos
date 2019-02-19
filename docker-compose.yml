@@ -1,0 +1,6 @@
+python:
+   image: python:3
+   volumes:
+     - ./:/code
+   working_dir: /code
+   command: python test.py
